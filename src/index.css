@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans&display=swap');
+:root
+{
+    --main-color:#0aad0a;
+    --light-color:#f0f3f2;
+    --shadow: rgba(145,158,171,.2) 0px 2px 4px -1px,rgba(145,158,171,.14) 0px 4px 5px 0px,rgba(145,158,171,.12) 0px 1px 10px 0px;
+    --font-family:'Encode Sans Expanded', sans-serif;
+    --rating-color:#ffc908;
+}
+body{
+  font-family: var(--font-family) ;
+}
+.productitem a{
+text-decoration: none;
+color: black;
+}
+.imageItem{
+  cursor: pointer;
+}
+.loading{
+  width: 100%;
+background-color: rgb(0, 0, 0);  
+display: flex;
+z-index: 1000;
+}
+.link{
+  text-decoration: none;
+  color: #222;
+}
+.point{
+  cursor: pointer;
+}
+a{
+  cursor: pointer;
+}
+.w-10{
+  width:60px;
+
+}
+.clicked{
+  cursor: pointer;
+  
+}
+.cart{
+  background-color: #6a6969;
+}
+.font-design{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.cart-container{
+  background-color: #f1f1f1;
+}
+.change{
+  background-color: #222;
+}
